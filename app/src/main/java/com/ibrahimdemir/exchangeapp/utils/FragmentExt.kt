@@ -19,6 +19,7 @@ fun FragmentActivity.addFragment(fragment: Fragment, container: Int) {
     val className = fragment.javaClass.name
     supportFragmentManager
         .beginTransaction()
+        .addToBackStack(null)
         .add(container, fragment, className)
         .commit()
 }

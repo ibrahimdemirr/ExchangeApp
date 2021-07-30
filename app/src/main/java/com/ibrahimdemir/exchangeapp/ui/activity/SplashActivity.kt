@@ -1,6 +1,7 @@
-package com.ibrahimdemir.exchangeapp
+package com.ibrahimdemir.exchangeapp.ui.activity
 
 import android.os.Handler
+import com.ibrahimdemir.exchangeapp.R
 import com.ibrahimdemir.exchangeapp.base.BaseActivity
 import com.ibrahimdemir.exchangeapp.utils.startActivity
 
